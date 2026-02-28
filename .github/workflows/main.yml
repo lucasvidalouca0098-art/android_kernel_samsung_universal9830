@@ -12,7 +12,8 @@ on:
           - vendor/bengal-perf_defconfig
           - vendor/bengal_defconfig
           - vendor/bengal-lite-perf_defconfig
-          - vendor/bengal-lite_defconfig
+          - exynos9830_defconfig \
+            r8s.config
 
       ENABLE_SUSFS:
         description: 'Ativar SuSFS?'
